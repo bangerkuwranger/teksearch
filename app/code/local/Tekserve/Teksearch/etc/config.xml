@@ -23,6 +23,21 @@
 				</entities>
 			</teksearch_mysql4>
 		</models>
+		<blocks>
+			<teksearch>
+				<class>Tekserve_Teksearch_Block</class>
+			</teksearch>
+			<catalogsearch>
+				<rewrite>
+					<result>Tekserve_Teksearch_Block_CatalogSearch_Result</result>
+				</rewrite>
+			</catalogsearch>
+		</blocks>
+		<helpers>
+		   <teksearch>
+				  <class>Tekserve_Teksearch_Helper</class>
+			</teksearch>
+		</helpers>
 		<resources>
 			<teksearch_write>
 				<connection>

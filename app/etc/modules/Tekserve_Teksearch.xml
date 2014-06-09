@@ -9,11 +9,11 @@
             <!-- Which code pool to use: core, community or local -->
             <codePool>local</codePool>
             
-            <!-- Depends on Celebros ConversionPro 
+            <!-- Depends on Celebros ConversionPro -->
             <depends>
             	<Celebros_Conversionpro />
             </depends>
--->
+
         </Tekserve_Teksearch>
     </modules>
 </config>
